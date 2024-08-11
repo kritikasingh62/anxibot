@@ -1,0 +1,74 @@
+
+/*.user-message {
+  text-align: right;
+  background-color: #e0ffe0;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.bot-message {
+  text-align: left;
+  background-color: #e0e0ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}*/
+
+/* global.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ececec; /* Light background for better contrast */
+  color: #333; /* Dark text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Style for the main title */
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for buttons */
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+/* Links */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add some padding to the chat container */
+#chat-container {
+  padding: 20px; /* Padding around chat interface container */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 10px; /* Add padding on smaller screens */
+  }
+
+  .chat-container {
+    width: 100%; /* Full width on small screens */
+    height: auto; /* Auto height */
+  }
+}
